@@ -8,5 +8,11 @@ build:
 up:
 	docker-compose up -d
 
+down:
+	docker-compose down
+
 bash:
 	docker-compose exec web ash
+
+ps:
+	docker-compose ps

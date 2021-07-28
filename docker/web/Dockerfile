@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-WORKDIR /var/www/src
+WORKDIR /var/www/vue
 
 RUN apk update
 RUN npm install

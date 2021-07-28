@@ -8,7 +8,6 @@ services:
       - 3000:3000
     privileged: true
     volumes:
-      - ./vue:/var/www/src
+      - ./vue:/var/www/vue
     tty: true
     stdin_open: true
-    command: /bin/sh
