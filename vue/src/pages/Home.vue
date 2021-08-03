@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img src="@/assets/logo.png" />
     <h1>{{ msg }}</h1>
     <h2>Learning Agora</h2>
     <ul>
@@ -51,7 +52,7 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App & Agora'
     }
   }
 }
